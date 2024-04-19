@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q4 SW2</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+<style>
+	body{
+	background-image:url(https://img.freepik.com/free-vector/background-knowledge-day-celebration_52683-131709.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1713225600&semt=ais);
+
+	}
+    
+
+</style>
+
+
+</head>
+<body>
+<p>Solve this item!</p>
+<div class="col-md-6">
+	<form class="form-group">
+		<label>Enter any number</label>
+		<input type="number" class="form-control" id="num1">
+		<label>Enter the second number</label>
+		<input type="number" class="from-control" id="num2">
+         <br><br>
+       <button type="submit" id="submit" onclick="add()">add</button>
+       <button type="submit" id="submit" onclick="subt()">subtraction</button>
+       
+       
+
+
+
+</form>
+</div>
+
+<script type="text/javascript">
+	function add(){
+	var num1 = document.getElementByID("num1").value;
+	var num2 = document.getElementByID("num2").value;
+    var num3 = document.getElementByID("num3").value;
+    var num4 = document.getElementByID("num4").value;
+   	var add Number(num1) + Number(num2) ;
+    var add Number(num3) + Number(num4) ;
+ 
+alert(add);
+
+
+    function subtract()
+    var num1 = document.getElementByID("num1").value;
+    var num2 = document.getElementByID("num2").value;
+    var num3 = document.getElementByID("num3").value;
+    var num4 = document.getElementByID("num4").value;
+   	var subtract Number(num1) - Number(num2) ;
+   	var subtract Number(num3) -Number(num4) ;
+
+   alert(subtract);
+
+	}
+
+
+
+
+
+</body>
+</html>
